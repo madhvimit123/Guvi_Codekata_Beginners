@@ -1,2 +1,5 @@
 n=int(input())
-print(int((n*(n+1))/2))
+if n>0:
+    print(int((n*(n+1))/2))
+else:
+    print("invalid input")
